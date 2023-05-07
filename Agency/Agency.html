@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dresses</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 100px 200px 200px;
+      gap: 10px;
+      border:10px solid black;
+      background-color:aliceblue;
+    }
+
+    .first {
+      grid-column: span 2;
+    }
+
+    .dress{
+        height:150px;
+        width:150px;
+    }
+    h2{
+        color:black ;
+    }
+    h1,h2{
+        font-family: 'Cinzel Decorative', cursive;
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+    <h1>Dresses</h1>
+    <div class="grid-container">
+    <div class="first card">
+        <h1>Different Types of Dresses</h1>
+    </div>
+
+    <div class="card">
+        <h2> ➤ Ethnic Wear</h2>
+        <a href="./ethnic.html"><img class="ethnic dress" src="./imges/ethnic.jpg" alt="Ethnic dress" /></a>
+        
+    </div>
+    
+    <div class="card">
+        <h2> ➤ Formal Wear</h2>
+        <a href="./formal.html"><img class="formal dress" src="./imges/formal.jpg" alt="Formal dress" /></a>
+    </div>
+
+    <div class="card">
+        <h2> ➤ Informal Wear</h2>
+        <a href="./informal.html"><img class="informal dress" src="./imges/informal.jpg" alt="Informal dress" /></a>
+    </div>
+
+    <div class="card">
+        <h2> ➤ Modern Wear</h2>
+        <a href="./modern.html" ><img class="modern dress" src="./imges/modern.jpeg" alt="Modern dress" /></a>
+    </div>
+    <br /><br />
+    </div>
+    </center>
+</body>
+
+</html>
